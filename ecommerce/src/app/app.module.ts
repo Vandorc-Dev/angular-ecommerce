@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AppOutingModule } from './app-routing.module';
+import { NaoEnccontradoComponent } from './nao-enccontrado/nao-enccontrado.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NaoEnccontradoComponent
   ],
   imports: [
     BrowserModule,
