@@ -6,6 +6,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AppOutingModule } from './app-routing.module';
 import { NaoEnccontradoComponent } from './nao-enccontrado/nao-enccontrado.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { NaoEnccontradoComponent } from './nao-enccontrado/nao-enccontrado.compo
   ],
   imports: [
     BrowserModule,
-    AppOutingModule
+    AppOutingModule,
+    BrowserAnimationsModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
